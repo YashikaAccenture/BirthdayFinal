@@ -1,0 +1,818 @@
+Option Compare Text
+#Const LateBind = True
+
+Dim OutApp As Object
+Dim OutMail As Object
+Dim objAddressentry  As Object
+Dim objExchangeUser  As Object
+Dim objReply   As Object
+Dim objRecipient    As Object
+Dim EmailSubject As String
+Dim EmailSendTo As String
+Dim MailBody As String
+Dim EmailAdrress As String
+Dim strAddress As String
+Dim mail As String
+Dim MyRowCount As Integer
+Dim colName1 As String
+Dim c As Integer
+Dim y As Integer
+Dim RowNum As Integer
+Private log As Object
+Dim argument As String
+Dim LogFilePath As String
+Dim ImageFilePath As String
+Dim ReminderImage As String
+Dim ReminderImage2 As String
+Dim BirthdayMailImage As String
+Dim BirthdayEmailforTeamImage As String
+Dim backgroundImage As String
+Dim flag As Integer
+
+
+Const olMinimized As Long = 1
+Const olMaximized As Long = 2
+Const olFolderInbox As Long = 6
+
+Private Sub Workbook_Open()
+Call PrintLog("Tool Data :: " & Date & " " & Time)
+Call SendEmail_Reminder1
+End Sub
+
+
+
+
+#If LateBind Then
+
+Public Function OutlookApp( _
+    Optional WindowState As Long = olMinimized, _
+    Optional ReleaseIt As Boolean = False _
+    ) As Object
+   
+    Static o As Object
+
+#Else
+Public Function OutlookApp( _
+    Optional WindowState As Outlook.OlWindowState = olMinimized, _
+    Optional ReleaseIt As Boolean _
+) As Outlook.Application
+
+    Static o As Outlook.Application
+    
+#End If
+On Error GoTo ErrHandler
+ 
+    Select Case True
+        Case o Is Nothing, Len(o.Name) = 0
+            Set o = GetObject(, "Outlook.Application")
+            If o.Explorers.Count = 0 Then
+InitOutlook:
+                'Open inbox to prevent errors with security prompts
+                o.Session.GetDefaultFolder(olFolderInbox).Display
+                o.ActiveExplorer.WindowState = WindowState
+            End If
+        Case ReleaseIt
+            Set o = Nothing
+    End Select
+    Set OutlookApp = o
+ 
+ExitProc:
+    Exit Function
+ErrHandler:
+    Select Case Err.Number
+        Case -2147352567
+            'User cancelled setup, silently exit
+            PrintLog ("Error in opening Outlook " & Err.Description & "," & Err.Number)
+            Set o = Nothing
+        Case 429, 462
+            Set o = GetOutlookApp()
+            If o Is Nothing Then
+                Err.Raise 429, "OutlookApp", "Outlook Application does not appear to be installed."
+                PrintLog ("Error in Outlook Installation : " & Err.Description & "," & Err.Number)
+            Else
+                Resume InitOutlook
+            End If
+        Case Else
+            PrintLog ("Error " & Err.Number & ": " & Err.Description & "," & vbCritical & "," & "Unexpected error")
+    End Select
+    Resume ExitProc
+    Resume
+End Function
+
+#If LateBind Then
+Private Function GetOutlookApp() As Object
+#Else
+Private Function GetOutlookApp() As Outlook.Application
+#End If
+On Error GoTo ErrHandler
+    
+    Set GetOutlookApp = CreateObject("Outlook.Application")
+    
+ExitProc:
+    Exit Function
+ErrHandler:
+    Select Case Err.Number
+        Case Else
+            'Do not raise any errors
+            Set GetOutlookApp = Nothing
+    End Select
+    Resume ExitProc
+    Resume
+End Function
+
+Function MacroUsingOutlook()
+    
+    Set MacroUsingOutlook = OutlookApp()
+    'Automate OutApp as desired
+End Function
+
+Sub SendEmail_Reminder1()
+LogFilePath = Worksheets("Configuration").Cells(2, 1).Value
+
+c = 0
+y = 1
+
+
+ImageFilePath = Worksheets("Configuration").Cells(2, 2).Value
+ReminderImage = Worksheets("Configuration").Cells(2, 3).Value
+ReminderImage2 = Worksheets("Configuration").Cells(2, 4).Value
+BirthdayMailImage = Worksheets("Configuration").Cells(2, 5).Value
+BirthdayEmailforTeamImage = Worksheets("Configuration").Cells(2, 6).Value
+backgroundImage = Worksheets("Configuration").Cells(2, 7).Value
+Dim colIndex2 As Integer
+MyRowCount = Worksheets("Birthdays").UsedRange.Rows.Count
+LastRow = Worksheets("Birthdays").Cells(1, 1).End(xlDown).Row
+Set Rng = Worksheets("Birthdays").Range("B2:B" & LastRow)
+Worksheets("Birthdays").Range("B1:B" & LastRow).NumberFormat = "dd.mm.yyyy"
+For Each cell In Rng
+If cell.Value <> "" Then
+'Get cell Date
+flag = 0
+    Dte = cell.Value
+    RowNum = cell.Row
+    colName1 = Worksheets("Birthdays").Cells(RowNum, 1).Value
+    Email1 = Worksheets("Birthdays").Cells(RowNum, 3).Value
+PrintLog (vbCrLf & "RowNumber = " & RowNum & vbCrLf & "Employee : " & colName1 & vbCrLf & "Birthdate : " & Dte)
+EmailAdrress = ""
+Set Rng1 = Range("C2:C" & LastRow)
+
+On Error GoTo NextIteration
+'Get Pre mail date by taking 1 day off cell date value and Post mail date by adding 1 day to cell date
+    MailDtePre = DateAdd("d", -5, Dte)
+        If (Err.Number <> 0) Then
+        PrintLog ("Error Number : " & Err.Number & ",Error Description" & Err.Description)
+     End If
+    MailDtePost = DateAdd("d", -2, Dte)
+        If (Err.Number <> 0) Then
+        PrintLog ("Error Number : " & Err.Number & ",Error Description" & Err.Description)
+     End If
+ PrintLog (vbCrLf & "************Required Action********" & vbCrLf)
+'Check 1 day before column B date and send to column C address
+On Error GoTo NextIteration
+    If Day(Date) = Day(MailDtePre) And Month(Date) = Month(MailDtePre) Then
+    flag = 1
+    For Each Cell1 In Rng1
+If Cell1.Value <> "" Then
+    
+    RowNum1 = Cell1.Row
+    If (RowNum1 <> RowNum) Then
+        EmailAdrress = EmailAdrress & ";" & Cell1.Value
+    End If
+End If
+   Next
+    mail = "First"
+    'EmailSendTo = cell.Offset(0, 1).Value
+    EmailSendTo = EmailAdrress
+    PrintLog (vbCrLf & "Action = Reminder1" & vbCrLf & "EmailChain : " & EmailAdrress & vbCrLf)
+    End If
+    
+'Check 1 day after column B date and send to column C address
+    If Day(Date) = Day(MailDtePost) And Month(Date) = Month(MailDtePost) Then
+    flag = 0
+    For Each Cell1 In Rng1
+If Cell1.Value <> "" Then
+    
+    RowNum1 = Cell1.Row
+    If (RowNum1 <> RowNum) Then
+        EmailAdrress = EmailAdrress & ";" & Cell1.Value
+    End If
+End If
+   Next
+    mail = "Reminder"
+    'EmailSendTo = cell.Offset(0, 1).Value
+    EmailSendTo = EmailAdrress
+    PrintLog (vbCrLf & "Action = Reminder2" & vbCrLf & "EmailChain : " & EmailAdrress & vbCrLf)
+    End If
+    
+    
+    Dim colIndex3 As Integer
+    If Day(Date) = Day(Dte) And Month(Date) = Month(Dte) Then
+    flag = 1
+    PrintLog (vbCrLf & "************Action required : BirthdayEmail********" & vbCrLf)
+    PrintLog (vbCrLf & "************Outlook fetching function called********" & vbCrLf)
+    On Error GoTo NextIteration
+        colIndex2 = GetFromOutlook()
+        If (Err.Number <> 0) Then
+        PrintLog ("Ending program due to issue with Outlook")
+        Exit Sub
+        End If
+        PrintLog (vbCrLf & "ColumnNumber : " & colIndex2 & vbCrLf & "************Outlook function executed sucessfully*******" & vbCrLf)
+        colIndex3 = colIndex2 + 1
+        PrintLog (vbCrLf & "ColumnNumber2 : " & colIndex3)
+        Dim Counter As Integer
+       For Counter = 2 To MyRowCount
+        If (Worksheets("Birthdays").Cells(Counter, colIndex2).Value = "" And Worksheets("Birthdays").Cells(Counter, colIndex3).Value <> "N") Then
+            If (Counter <> RownNum1) Then
+            Worksheets("Birthdays").Cells(Counter, colIndex2).Value = Worksheets("Configuration").Cells(2, 8).Value
+            Worksheets("Birthdays").Cells(Counter, colIndex3).Value = "N"
+            End If
+            PrintLog (vbCrLf & "Default Wish for Row : " & Counter)
+    End If
+    Next Counter
+    EmailSendTo = Email1
+  For Each Cell1 In Rng1
+If Cell1.Value <> "" Then
+    
+    RowNum1 = Cell1.Row
+    If (RowNum1 <> RowNum) Then
+        EmailAdrress = EmailAdrress & ";" & Cell1.Value
+    End If
+End If
+   Next
+    EmailForAll = EmailAdrress
+        mail = "Final"
+        PrintLog (vbCrLf & "Action = BirthdayEmail" & vbCrLf & "EmailChain : " & EmailAdrress & vbCrLf)
+       End If
+    'For Each objOutlookRecip In .Recipients
+  '         objOutlookRecip.Resolve
+   '    Next
+'Skip if mail=false
+    If mail = "First" Then
+    PrintLog (vbCrLf & "************ Reminder 1 Action Started ********" & vbCrLf)
+'Subject string
+    EmailSubject = "Birthday E-Card || Send your wishes for " & colName1
+    
+'Mail Body
+    MailBody = "<html><body><p>Hello all,</p><p>Let us send some good wishes via E-card to " & colName1 & " on her birthday.</p>" & "<p><a href=""mailto:yashika.gupta2@partner.commerzbank.com?subject=RE : Birthday E-Card || Send your wishes for " & colName1 & "&body=Dear " & colName1 & ", "">Click here</a> to send your wishes on this email so that we can collate it for birthday E-card.</p>" & "<p>Please send it as early as possible. :)</p>" & "<p><center><img src=""" & ImageFilePath & ReminderImage & """ height=""300"" width=""350""/></center></p>" & "<p>This is a small initiative taken by us to bring smile on the faces of birthday boy/girl :)</p>" & "<p>Requesting you to please send the birthday wishes proactively on this email without reminders.</p>" & "<p>Thankyou !!</p>" & "<p><p>NOTE : This is an auto generated email via 'Wishing Tool'. Any replies other than specified will"
+    MailBody = MailBody & " not be considered.&nbsp;</p><p> For any feedback/queries,<a href=""mailto:BirthdayFeedback@partner.commerzbank.com?subject=Wishing Tool Related Query/Feedback""> click here</a></p></body></html>"
+'Send Mail
+ PrintLog (vbCrLf & " ************Email Subject********" & vbCrLf & EmailSubject & vbCrLf & "Email Body :" & MailBody)
+        Set OutApp = MacroUsingOutlook()
+        If (OutApp Is Nothing) Then
+            PrintLog ("Ending program due to issue with Outlook")
+            Exit Sub
+        End If
+        Set OutMail = OutApp.CreateItem(0)
+        With OutMail
+            .Subject = EmailSubject
+            .To = "ps@beon.net"
+            '.bcc
+            .HTMLBody = MailBody
+            .Display
+    On Error GoTo NextIteration
+            .Send
+    If (Err.Number <> 0) Then
+        PrintLog ("Error Number : " & Err.Number & ",Error Description" & Err.Description)
+     End If
+        End With
+ PrintLog (vbCrLf & " ************Email Sent successfully********" & vbCrLf)
+        Set OutMail = Nothing
+        Set OutApp = Nothing
+        mail = ""
+        EmailSendTo = ""
+        
+ End If
+ 
+ 'Skip if mail=false
+    If mail = "Reminder" Then
+    PrintLog (vbCrLf & " ************ Reminder 2 Action Started ********" & vbCrLf)
+'Subject string
+    EmailSubject = "Reminder :: Birthday E-Card || Send your wishes for " & colName1
+    
+'Mail Body
+    MailBody = "<html><body><p>Hello all,</p><p>Let us send some good wishes via E-card to " & colName1 & " on her birthday.</p>" & "<p><a href=""mailto:yashika.gupta2@partner.commerzbank.com?subject=RE : Birthday E-Card || Send your wishes for " & colName1 & "&body=Dear " & colName1 & ", "">Click here</a> to send your wishes on this email so that we can collate it for birthday E-card.</p>" & "<p>Please send it as early as possible. :)</p>" & "<p><center><img src=""" & ImageFilePath & ReminderImage2 & """ height=""300"" width=""350""/></center></p>" & "<p>This is a small initiative taken by us to bring smile on the faces of birthday boy/girl :)</p>" & "<p>Requesting you to please send the birthday wishes proactively on this email without reminders.</p>" & "<p>Thankyou !!</p>" & "<p><p>NOTE : This is an auto generated email via 'Wishing Tool'. Any replies other than specified will"
+    MailBody = MailBody & " not be considered.&nbsp;</p><p> For any feedback/queries,<a href=""mailto:BirthdayFeedback@partner.commerzbank.com?subject=Wishing Tool Related Query/Feedback""> click here</a></p></body></html>"
+  PrintLog (vbCrLf & " ************Email Subject********" & vbCrLf & EmailSubject & vbCrLf & "Email Body :" & MailBody)
+'Send Mail
+        Set OutApp = MacroUsingOutlook()
+                If (OutApp Is Nothing) Then
+            PrintLog ("Ending program due to issue with Outlook")
+            Exit Sub
+        End If
+        Set OutMail = OutApp.CreateItem(0)
+        With OutMail
+            .Subject = EmailSubject
+            .To = "ps@beon.net"
+            '.bcc
+            .HTMLBody = MailBody
+            .Display
+            On Error GoTo NextIteration
+            .Send
+               
+     
+        End With
+ PrintLog (vbCrLf & " ************Email Sent successfully********" & vbCrLf)
+        Set OutMail = Nothing
+        Set OutApp = Nothing
+        mail = ""
+        EmailSendTo = ""
+        
+ End If
+ 
+ If mail = "Final" Then
+   PrintLog (vbCrLf & " ************BirthdayEmail action started********" & vbCrLf)
+ 'Subject string
+    EmailSubject = "Happy Birthday " & colName1
+    PrintLog (vbCrLf & " ************Email Subject********" & vbCrLf & EmailSubject)
+'Mail Body
+    MailBody = ""
+        Set OutApp = MacroUsingOutlook()
+                If (OutApp Is Nothing) Then
+            PrintLog ("Ending program due to issue with Outlook")
+            Exit Sub
+        End If
+        Set OutMail = OutApp.CreateItem(0)
+        With OutMail
+            .Subject = EmailSubject
+            .To = "ps@beon.net"
+            .cc = ""
+              PrintLog (vbCrLf & " ************FinalEmailBody2 called********" & vbCrLf)
+            .HTMLBody = FinalEmailBody2(colIndex2, colName1, MyRowCount)
+         PrintLog (vbCrLf & " ************FinalEmailBody2 executed successfully********" & vbCrLf)
+            .Display
+            On Error GoTo NextIteration
+            .Send
+                If (Err.Number <> 0) Then
+        PrintLog ("Error Number : " & Err.Number & ",Error Description" & Err.Description)
+     End If
+        End With
+        PrintLog (vbCrLf & " ************Email Sent successfully********" & vbCrLf)
+ y = y + 1
+     'Subject string
+     PrintLog (vbCrLf & " ************BirthdayEmail for Team action started********" & vbCrLf)
+    EmailSubject = "Today is " & colName1 & "'s Birthday"
+     PrintLog (vbCrLf & " ************Email Subject********" & vbCrLf & EmailSubject)
+'Mail Body
+MailBody = MailBody & "<html><body><h4 style=""color: #5e9ca0;"">Hello all,</h4><h4>Personalized card is sent to " & colName1 & " via automated E-card tool.</h4>"
+MailBody = MailBody & "<div><span style=""color: #993300;"">Thank you all to share good wishes. :)</span></div><div>&nbsp;</div><div><span style=""color: #800080;"">For those, who forgot to wish, can wish them personally today.</span></div>"
+MailBody = MailBody & "<div>&nbsp;</div><div><strong>Note :</strong> This is an auto generated email.Please dont reply.</div><p> For any feedback/queries,<a href=""mailto:BirthdayFeedback@partner.commerzbank.com?subject=Wishing Tool Related Query/Feedback""> click here</a></p>"
+MailBody = MailBody & "<div>&nbsp;</div></body></html>"
+        Set OutApp = MacroUsingOutlook()
+                If (OutApp Is Nothing) Then
+            PrintLog ("Ending program due to issue with Outlook")
+            Exit Sub
+        End If
+        Set OutMail = OutApp.CreateItem(0)
+        With OutMail
+            .Subject = EmailSubject
+            .To = "ps@beon.net"
+            .cc = ""
+            .HTMLBody = MailBody
+            .Display
+            On Error GoTo NextIteration
+            .Send
+                If (Err.Number <> 0) Then
+        PrintLog ("Error Number : " & Err.Number & ",Error Description" & Err.Description)
+     End If
+        End With
+        PrintLog (vbCrLf & " ************Email Sent successfully********" & vbCrLf)
+        PrintLog (vbCrLf & "Dropping additional columns")
+        Columns(colIndex2).EntireColumn.Delete
+        Columns(colIndex2).EntireColumn.Delete
+        Set OutMail = Nothing
+        Set OutApp = Nothing
+        mail = ""
+        EmailSendTo = ""
+ End If
+ 
+ End If
+   PrintLog (vbCrLf & " ************NEXT ITERATION STARTED********" & vbCrLf)
+NextIteration:
+ If (Err.Number <> 0) Then
+        PrintLog ("Error Number : " & Err.Number & ",Error Description" & Err.Description)
+        Err.Clear
+End If
+ If (flag = 0) Then
+        PrintLog ("*************************NO ACTION REQUIRED*************")
+End If
+mail = ""
+Next
+colCount = Worksheets("Birthdays").UsedRange.Columns.Count
+If (colCount >= 4) Then
+For x = 4 To colCount
+    Columns(x).EntireColumn.Delete
+Next x
+        
+End If
+End Sub
+
+
+Public Function GetFromOutlook() As Integer
+
+PrintLog (vbCrLf & "INSIDE OUTLOOK FUNCTION")
+Dim i As Integer
+Dim ColIndex1 As Integer
+Dim strAddress1 As String
+Dim strEntryId As String
+
+
+Set OutlookApp1 = MacroUsingOutlook()
+        If (OutlookApp1 Is Nothing) Then
+            PrintLog ("Ending program due to issue with Outlook")
+            Exit Function
+        End If
+Set OutlookNamespace = OutlookApp1.GetNamespace("MAPI")
+
+Set Folder = OutlookNamespace.GetDefaultFolder(6).Folders("Birthdays")
+        If (Folder Is Nothing) Then
+            PrintLog ("Outlook Folder ""Birthdays"" not found")
+            Exit Function
+        End If
+PrintLog (vbCrLf & "BIRTHDAYS folder found")
+i = 1
+GetFromOutlook = AddLastColumn()
+PrintLog (vbCrLf & "New column added 1")
+GetFromOutlook1 = AddLastColumn()
+PrintLog (vbCrLf & "New column added 2" & GetFromOutlook1)
+For Each OutlookMail In Folder.Items
+    If (InStr(OutlookMail.Subject, "RE : Birthday E-Card || Send your wishes for " & colName1)) Then
+    
+    If OutlookMail.SenderEmailType = "SMTP" Then
+
+        strAddress1 = OutlookMail.SenderEmailAddress
+        PrintLog (vbCrLf & "Message from : " & strAddress1)
+    Else
+
+        Set objReply = OutlookMail.Reply()
+        Set objRecipient = objReply.Recipients.Item(1)
+
+        strEntryId = objRecipient.EntryID
+
+        
+
+        Set objAddressentry = OutlookNamespace.GetAddressEntryFromID(strEntryId)
+        Set objExchangeUser = objAddressentry.GetExchangeUser()
+
+        strAddress1 = objExchangeUser.PrimarySmtpAddress()
+        PrintLog (vbCrLf & "Message from NonSMTP : " & strAddress1)
+    End If
+
+ EmailAdrress = strAddress1
+Set Rng1 = Range("C2:C" & MyRowCount)
+'If OutlookMail.SenderEmailType = "SMTP" Then
+
+        strAddress = OutlookMail.SenderName
+        
+ '   End If
+PrintLog (vbCrLf & "COMPARISON STARTED FROM Email in excel")
+For Each Cell1 In Rng1
+If (EmailAdrress = Worksheets("Birthdays").Cell1.Value) Then
+PrintLog (vbCrLf & "Match found at : " & Cell1)
+Row2 = Cell1.Row
+    '    Col1 = Columns.Count
+    
+     '   Dim ws As Worksheet
+     '   Set ws = ActiveSheet
+     '   Dim tbl As ListObject
+     '   Set tbl = ws.ListObjects("Yashika")
+'add a new column as the 5th column in the table
+       ' tbl.ListColumns.Add(Col1 + 1).Name = "Wishes for " & Name
+'add a new column at the end of the table
+     '  tbl.ListColumns.Add.Name = "Wishes for " & Name
+     PrintLog (vbCrLf & "Looking for attachments")
+        If OutlookMail.Attachments.Count <> 0 Then
+            For Each oOlAtch In OutlookMail.Attachments
+                '~~> Download the attachment
+                oOlAtch.SaveAsFile ImageFilePath & oOlAtch.Filename
+                PrintLog (vbCrLf & "Attachment downloaded by name : " & ImageFilePath & oOlAtch.Filename)
+                Worksheets("Birthdays").Cells(Row2, GetFromOutlook1).Value = ImageFilePath & oOlAtch.Filename
+                PrintLog (vbCrLf & "Written against Row : " & Row2 & ", Column : " & GetFromOutlook1)
+                Exit For
+            Next
+        Else
+                Worksheets("Birthdays").Cells(Row2, GetFromOutlook1).Value = "N"
+                PrintLog (vbCrLf & "Written N against Row : " & Row2 & ", Column : " & GetFromOutlook1)
+        End If
+        Worksheets("Birthdays").Cells(Row2, GetFromOutlook).Value = OutlookMail.Body
+        PrintLog (vbCrLf & "Written against Row : " & Row2 & ", Column : " & GetFromOutlook & ",Body : " & OutlookMail.Body)
+        OutlookMail.Delete
+        PrintLog (vbCrLf & "Email deleleted successfully")
+        'Range("eMail_sender").Offset(i, 0).Value = OutlookMail.SenderName
+        Exit For
+    End If
+   Next
+End If
+
+   
+        'Range("eMail_subject").Offset(i, 0).Value = OutlookMail.Subject
+       ' Range("eMail_date").Offset(i, 0).Value = OutlookMail.ReceivedTime
+      '  Range("eMail_sender").Offset(i, 0).Value = OutlookMail.SenderName
+      '  Range("eMail_text").Offset(i, 0).Value = OutlookMail.Body
+        i = i + 1
+  '  End If
+  PrintLog (vbCrLf & "Searching next mail")
+Next OutlookMail
+
+Set Folder = Nothing
+Set OutlookNamespace = Nothing
+Set OutlookApp1 = Nothing
+
+End Function
+
+
+Public Function AddLastColumn() As Integer
+
+'Set MyWorkbook = Workbooks(This.ActiveWorkbook)
+'Set MyWorksheet = MyWorkbook.Sheets("Yashika")
+PrintLog (vbCrLf & "Adding new column")
+Dim MyWorksheetLastRow As Long
+Dim MyWorksheetLastColumn As Long
+Dim MyRowPointer As Long
+
+MyWorksheetLastColumn = Worksheets("Birthdays").Cells(1, Columns.Count).End(xlToLeft).Column
+Worksheets("Birthdays").Cells(1, MyWorksheetLastColumn + 1).Value = "Wishes for " & colName1
+AddLastColumn = Worksheets("Birthdays").Cells(1, Columns.Count).End(xlToLeft).Column
+PrintLog (vbCrLf & "Add new column : " & AddLastColumn)
+End Function
+
+Public Function FinalEmailBody(ColIndex1 As Integer) As String
+
+Dim Wish1 As String
+Dim Name1 As String
+
+FinalEmailBody = FinalEmailBody & "<body  bgcolor=""#E6E6FA"">"
+FinalEmailBody = FinalEmailBody & "<h2>Hello,</h2>"
+FinalEmailBody = FinalEmailBody & "<p>&nbsp;</p>"
+FinalEmailBody = FinalEmailBody & "<h1 style=""text-align: center;""><span style=""color: #ff0000;""><strong>Wish you a very Happy Birthday !!</strong></span></h1>"
+FinalEmailBody = FinalEmailBody & "<p>&nbsp;</p>"
+FinalEmailBody = FinalEmailBody & "<table style=""height: 128px;"" width=""638"">"
+FinalEmailBody = FinalEmailBody & "<tbody>"
+FinalEmailBody = FinalEmailBody & "<tr>"
+FinalEmailBody = FinalEmailBody & "<td style=""text-align: center;width: 311px;"">"
+FinalEmailBody = FinalEmailBody & "<h2 style=""text-align: center;""><em><strong><span style=""color: #993300;"">&ldquo;A wish for you on your birthday, whatever you ask may you receive, whatever you seek may you find, whatever you wish may it be fulfilled on your birthday and always. Happy birthday!&rdquo;</span></strong></em></h2>"
+FinalEmailBody = FinalEmailBody & "</td>"
+FinalEmailBody = FinalEmailBody & "<td style=""width: 311px;"">&nbsp;</td>"
+FinalEmailBody = FinalEmailBody & "</tr>"
+FinalEmailBody = FinalEmailBody & "</tbody>"
+FinalEmailBody = FinalEmailBody & "</table>"
+FinalEmailBody = FinalEmailBody & "<p>&nbsp;</p>"
+FinalEmailBody = FinalEmailBody & "<h3 style=""text-align: center;""><span style=""color: #993300;""><em>Here are some good wishes from the whole team on your birthday :</em></span></h3>"
+FinalEmailBody = FinalEmailBody & "<p>&nbsp;</p>"
+FinalEmailBody = FinalEmailBody & "<p>&nbsp;</p>"
+
+NoOfRows = MyRowCount / 2
+Remainder = MyRowCount Mod 2
+
+If Remainder <> 0 Then
+    NoOfRows = NoOfRows + 1
+End If
+
+FinalEmailBody = FinalEmailBody & "<table style=""text-align: center;""height: ""128px"";width=""638"">"
+FinalEmailBody = FinalEmailBody & "<tbody>"
+FinalEmailBody = FinalEmailBody & "<tr>"
+Dim Counter1 As Integer
+
+For Counter1 = 2 To MyRowCount
+Wish1 = Worksheets("Birthdays").Cells(Counter1, ColIndex1).Value
+Name1 = Worksheets("Birthdays").Cells(Counter1, 1).Value
+If Counter1 Mod 2 = 0 And Counter1 <> 2 Then
+    FinalEmailBody = FinalEmailBody & "</tr><tr>"
+End If
+
+FinalEmailBody = FinalEmailBody & "<td style=""text-align: center;width: 411px;"">"
+FinalEmailBody = FinalEmailBody & "<h2 style=""text-align: center;""><em><strong><span style=""color: #993300;"">" + Wish1 + "<br>" + Name1 + "</span></strong></em></h2>"
+FinalEmailBody = FinalEmailBody & "</td>"
+
+If Counter1 = MyRowCount Then
+
+    FinalEmailBody = FinalEmailBody & "<td style=""text-align: center;width: 411px;"">"
+    FinalEmailBody = FinalEmailBody & "<h2 style=""text-align: center;""></h2>"
+    FinalEmailBody = FinalEmailBody & "</td>"
+    FinalEmailBody = FinalEmailBody & "</tr><tr>"
+
+End If
+    
+Next Counter1
+
+FinalEmailBody = FinalEmailBody & "</tbody>"
+FinalEmailBody = FinalEmailBody & "</table>"
+FinalEmailBody = FinalEmailBody & "<p>&nbsp;</p>"
+FinalEmailBody = FinalEmailBody & "<p>&nbsp;</p>"
+FinalEmailBody = FinalEmailBody & "<h3><span style=""color: #003366;""><em>Best Wishes,</em></span></h3>"
+FinalEmailBody = FinalEmailBody & "<h3><span style=""color: #003366;""><em>Coba Team</em></span></h3>"
+FinalEmailBody = FinalEmailBody & "<p>&nbsp;</p>"
+FinalEmailBody = FinalEmailBody & "<p>&nbsp;</p>"
+FinalEmailBody = FinalEmailBody & " </body>"
+
+
+End Function
+
+
+Public Function CreateHTML(colName1 As String, colNumber As Integer, RowNumber As Integer) As String
+PrintLog (vbCrLf & "HTML First Page recording start")
+Dim ColNumber2 As Integer
+ColNumber2 = colNumber + 1
+Dim sFile As String
+   sFile = ImageFilePath & "BirthdayPage0" & y & ".html"
+Close
+PrintLog (vbCrLf & "HTML file name : " & sFile)
+Open sFile For Output As #1
+
+Print #1, "<html>"
+Print #1, "<head>"
+Print #1, "<meta name=""viewport"" content=""width=device-width, initial-scale=1"">"
+Print #1, "<link rel=""stylesheet"" type=""text/css"" href=""css/New.css"">"
+Print #1, "</head>"
+Print #1, "<body>"
+Print #1, "<div class='moon'>"
+Print #1, "  <div class='crater1'></div>"
+Print #1, "  <div class='crater2'></div>"
+Print #1, "  <div class='crater3'></div>"
+Print #1, "</div>"
+Print #1, "<canvas id=""canvas""></canvas>"
+Print #1, "<div id=""sea""></div>"
+Print #1, "<div id=""beach""></div>"
+Print #1, "<div id=""beach1""></div>"
+Print #1, "<img src=""jumping.png"" alt=""jumping-people"" id=""people"" />"
+Print #1, "<div id=""merrywrap"" class=""merrywrap"">"
+Print #1, "<div class=""giftbox"">"
+Print #1, "    <div class=""cover"">"
+Print #1, "      <div></div>"
+Print #1, "    </div>"
+Print #1, "    <div class=""box""></div>"
+Print #1, "  </div>"
+Print #1, "  <div class=""icons"">"
+Print #1, "    <div class=""row""> "
+Print #1, "      <span>H</span>"
+Print #1, "      <span>A</span>"
+Print #1, "     <span>P</span>"
+Print #1, "      <span>P</span>"
+Print #1, "      <span>Y</span>"
+Print #1, "   </div>"
+Print #1, "    <div class=""row""> "
+Print #1, "      <span>B</span>"
+Print #1, "      <span>i</span>"
+Print #1, "      <span>r</span>"
+Print #1, "      <span>t</span>"
+Print #1, "      <span>h</span>"
+Print #1, "      <span>d</span>"
+Print #1, "      <span>a</span>"
+Print #1, "      <span>y</span> "
+Print #1, "    </div>"
+Print #1, "    <div class=""row""> "
+Print #1, "      <span>" & colName1 & "</span>"
+ Print #1, "   </div>"
+Print #1, "  </div>"
+Print #1, "</div>"
+Print #1, "<audio preload=""auto"" src=""Birthday.mp3"" loop=""true""></audio>"
+Print #1, "<script type=""text/javascript"" src=""js/New.js""></script>"
+Dim fso: Set fso = CreateObject("Scripting.FileSystemObject")
+
+If fso.FileExists(ImageFilePath & "Images/" & colName1 & ".jpg") Then
+Print #1, "<script >window.onload= new1(""" & colName1 & """,""" & ImageFilePath & """,""" & BirthdayPage & """,""" & y & """); </script>"
+    
+Else
+ Print #1, "<script >window.onload= new1(""Backup"",""" & ImageFilePath & """,""" & BirthdayPage & """,""" & y & """); </script>"
+End If
+
+Print #1, "<div id=""video"">"
+Print #1, "</div>"
+Print #1, "</body>"
+Print #1, "</html>"
+ PrintLog (vbCrLf & "Next page creation function called")
+Call CreateHTMLWishes(colNumber, ColNumber2, RowNumber)
+
+Close
+
+End Function
+
+
+Public Function FinalEmailBody2(ColIndex1 As Integer, colName1 As String, RowNumber As Integer) As String
+PrintLog (vbCrLf & "First HTML creation function calling")
+Call CreateHTML(colName1, ColIndex1, RowNumber)
+FinalEmailBody2 = FinalEmailBody2 & "<html><body background = """ & ImageFilePath & backgroundImage & """>"
+FinalEmailBody2 = FinalEmailBody2 & "<p style=""background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;""><span style=""font-size: 13pt;""><strong><span style=""color: #33cccc; font-family: georgia,palatino;"">Hello </span><span style=""color: #33cccc; font-family: comic sans ms,sans-serif;"">" & colName1 & "</span>,</strong></span></p>"
+FinalEmailBody2 = FinalEmailBody2 & "<p style=""background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;""><strong><span style=""color: #993366; font-family: trebuchet ms,geneva;"">MaNy Many HaPpy retuRns of the dAy :) !!</span></strong></p>"
+FinalEmailBody2 = FinalEmailBody2 & "<p style=""background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"" align=""center""><span style=""font-family: book antiqua,palatino; font-size: 13pt;"">&ldquo;We are <span style=""color: #00ccff;"">sending </span><span style=""font-family: impact,chicago;""><span style=""color: #00ccff;"">you smiles for</span> every moment</span> of your special <span style=""color: #993300;"">day with this card&hellip;</span>Have a wonderful time and <span style=""color: #993366; font-family: comic sans ms,sans-serif;"">a very happy&nbsp;<strong><span style=""font-family: &amp;quot; calibri&amp;quot;,sans-serif; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0"
+FinalEmailBody2 = FinalEmailBody2 & "px;"">birthday</span></strong>!&rdquo;</span></span></p>"
+FinalEmailBody2 = FinalEmailBody2 & "<p style=""background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"" align=""center""><em><strong><span style=""color: #993300; font-family: book antiqua,palatino;""><a href = """ & ImageFilePath & "BirthdayPage0" & y & ".html"">Click</a> to see your personalized Birthday card..</span></strong></em></p>"
+FinalEmailBody2 = FinalEmailBody2 & "<p style=""background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"" align=""center""><em><strong><span style=""color: #993300; font-family: book antiqua,palatino;""><img src=""" & ImageFilePath & BirthdayMailImage & """ alt="""" /></span></strong></em></p>"
+FinalEmailBody2 = FinalEmailBody2 & "</body></html>"
+ PrintLog (vbCrLf & "Body of final email built")
+End Function
+
+Public Function CreateHTMLWishes(colNumber As Integer, ColNumber2 As Integer, RowNumber As Integer)
+
+PrintLog (vbCrLf & "Personalized HTML page")
+Dim sFile As String
+   sFile = ImageFilePath & "BirthdayPage" & y & ".html"
+Close
+PrintLog (vbCrLf & "Personalizd HTML page name" & sFile)
+Open sFile For Output As #1
+Print #1, "<html>"
+Print #1, "<head>"
+Print #1, "<meta name=""viewport"" content=""width=device-width, initial-scale=1"">"
+Print #1, "<link rel=""stylesheet"" type=""text/css"" href=""css/Confetti.css"">"
+Print #1, "</head>"
+Print #1, "</head>"
+Print #1, "</head><meta charset=""UTF-8"">"
+Print #1, "    <title>Document</title>"
+Print #1, "    <style>"
+ Print #1, "       .div1{"
+Print #1, "            width: 400px;"
+ Print #1, "           height: 250px;"
+ Print #1, "           font-size: 20px;"
+ Print #1, "           line-height: 1.2em;"
+ Print #1, "  }"
+ Print #1, "</style>"
+ Print #1, "<script type=""text/javascript"" src=""https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js""></script>"
+ Print #1, "<script>"
+ Print #1, "$(function(){"
+ Print #1, " n = 1;"
+Print #1, "i=1;"
+Print #1, "j=$('div:visible').size();"
+Print #1, "while(i != j){"
+  Print #1, "while(n==1){"
+ Print #1, " n = 0"
+  Print #1, "if ($('.div' + i +' .holder').outerHeight()>$('.div' + i).outerHeight()){"
+  Print #1, "var fz = parseInt($('.div'+ i).css('font-size'));"
+  Print #1, "$('.div' + i).css({'font-size' : fz-1});"
+ Print #1, "  n = 1"
+ Print #1, "} else {n = 0}"
+  Print #1, " }"
+Print #1, " i = i+1;"
+Print #1, "}"
+ Print #1, " });"
+Print #1, "    </script>"
+Print #1, "</head>"
+
+Print #1, "<body>"
+Print #1, "<canvas id =""confetti"" width =""1"" height=""1""></canvas>"
+Print #1, "<script type=""text/javascript"" src=""js/Confetti.js""></script>"
+
+Dim i As Integer
+Print #1, "<center><table  align=""center"" style=""margin-top:40px;table-layout:auto;table-width:100%""></center>"
+Print #1, "<tr>"
+PrintLog (vbCrLf & "Wishes started adding")
+For i = 2 To RowNumber
+PrintLog (vbCrLf & "Wish from Row: " & i)
+If (i <> RowNum) Then
+PrintLog (vbCrLf & "Adding wish from Row : " & i & "from list")
+Print #1, "<td width=""400px"" height=""200px"" style=""border:solid 1px #ec2593 ;text-align:left;background-image:url('background5.png');font-family:Arial, Helvetica, sans-serif;font-style:italic;"">"
+
+Print #1, "<h2 style =""color:#25ecbb ;text-shadow: 2px 2px #ff0000;font-family:Arial, Helvetica, sans-serif;font-style:italic;text-align:center"">" & Worksheets("Birthdays").Cells(i, 1).Value & " says : </h2>"
+ 
+If Worksheets("Birthdays").Cells(i, colNumber).Value <> "" Then
+ Print #1, "<div class=""div" & i & """><div class=""holder""><p style = ""color:#C70039 ;font-family:Arial, Helvetica, sans-serif;font-style:italic bold"">" & Worksheets("Birthdays").Cells(i, colNumber).Value & "</p>"
+ PrintLog ("\Wish added for :" & i)
+End If
+
+Print #1, " </div></div>"
+If InStr(Worksheets("Birthdays").Cells(i, ColNumber2).Value, ".jpg") Or InStr(Worksheets("Birthdays").Cells(i, ColNumber2).Value, ".png") Or InStr(Worksheets("Birthdays").Cells(i, ColNumber2).Value, ".jpeg") Then
+Print #1, " <p><p>&nbsp;<center><img src="" " & Worksheets("Birthdays").Cells(i, ColNumber2).Value & ".jpg""  style=""margin-bottom:20px"" height=""100"" width=""100"" /></p>"
+PrintLog ("\Image added for :" & i)
+
+ElseIf InStr(Worksheets("Birthdays").Cells(i, ColNumber2).Value, ".mp4") Then
+Print #1, " <p><p>&nbsp;<center><video style=""margin-bottom:20px"" width=""320"" height=""250"" controls>"
+Print #1, " <source type=""video/mp4"" src=""" & Worksheets("Birthdays").Cells(i, ColNumber2).Value & """>"
+Print #1, "</video>"
+PrintLog (vbCrLf & "Video added for :" & i)
+End If
+
+Print #1, " </td>"
+PrintLog (vbCrLf & "Wish added successfully for :" & i)
+If (c Mod 3 = 0) Then
+Print #1, "</tr><tr>"
+PrintLog (vbCrLf & "New Row added for wish :" & i)
+End If
+If (i = RowNumber) Then
+PrintLog (vbCrLf & "Last wish :" & i)
+Print #1, "</table>"
+Print #1, "</body>"
+Print #1, "</html>"
+Exit For
+End If
+End If
+c = c + 1
+Next i
+
+Close
+
+
+End Function
+
+Public Sub PrintLog(argument As String)
+
+    Dim f As Integer
+    f = FreeFile
+    FilePath = LogFilePath & "BirthdayTool-" & Date & ".txt"
+    Open FilePath For Append Access Write Lock Write As #f
+    Print #f, argument
+    Close #f
+
+End Sub
+
+
+
+
+
