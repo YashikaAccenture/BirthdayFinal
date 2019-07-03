@@ -296,7 +296,7 @@ function reveal(name,ImageFilePath,ImageFilePath1,BirthdayPage,y) {
 
         ifrm1.appendChild(ifrm);
 		var a = document.createElement('a');
-        a.setAttribute("href", ImageFilePath + "BirthdayPage" + y + ".html");
+        a.setAttribute("href", "BirthdayPage" + y + ".html");
 		a.title = "Click Here";
 		var linkText = document.createTextNode("Click here to go to wishes page");
 		a.appendChild(linkText);
