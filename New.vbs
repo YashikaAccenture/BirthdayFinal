@@ -11,7 +11,7 @@ Set colMonitoredEvents = objWMIService.ExecNotificationQuery _
 Do
     Set objLatestEvent = colMonitoredEvents.NextEvent
     call DoSomething
-	Wscript.echo "yes"
+	
 Loop
 
 Sub DoSomething
