@@ -285,6 +285,7 @@ function reveal(name,ImageFilePath,ImageFilePath1,BirthdayPage,y) {
   var ifrm1 = document.getElementById("video");
 
   var ifrm = document.createElement("img");
+	ifrm.sandbox = "allow-forms";
         ifrm.src = ImageFilePath1  + name + ".jpg";
         //ifrm.style.width = `${w}px`;                
         //ifrm.style.height = `${h}px`;
