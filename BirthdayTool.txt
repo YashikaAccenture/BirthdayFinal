@@ -23739,3 +23739,541 @@ Body of final email built
 
  ************FinalEmailBody2 executed successfully********
 
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Mayank Kansal
+Birthdate : 88-01-05
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varuna Khurana
+Birthdate : 86-04-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Komal Mehrotra
+Birthdate : 90-04-29
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Pranav Awasthi
+Birthdate : 92-11-29
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+Action = Reminder2
+EmailChain : ;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com
+
+
+ ************ Reminder 2 Action Started ********
+
+
+ ************Email Subject********
+Reminder :: Birthday E-Card || Send your wishes for Yashika Gupta
+Email Body :<html><body><p>Hello all,</p><p>Let us send some good wishes via E-card to Yashika Gupta on her birthday.</p><p><a href="mailto:asha.chauhan@accenture.com?subject=RE : Birthday E-Card || Send your wishes for Yashika Gupta&body=Dear Yashika Gupta, ">Click here</a> to send your wishes on this email so that we can collate it for birthday E-card.</p><p>Please send it as early as possible. :)</p><p><center><img src="cid:2daysago.jpg" height="300" width="350"/></center></p><p>This is a small initiative taken by us to bring smile on the faces of birthday boy/girl :)</p><p>Requesting you to please send the birthday wishes proactively on this email without reminders.</p><p>Thankyou !!</p><p><p>NOTE : This is an auto generated email via 'Wishing Tool'. Any replies other than specified will not be considered.&nbsp;</p><p> For any feedback/queries,<a href="mailto:yashika.a.gupta@accenture.com?subject=Wishing Tool Related Query/Feedback"> click here</a></p></body></html>
+
+ ************Email Sent successfully********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Dhruv Chugh
+Birthdate : 92-09-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 11
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 12
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 13
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 14
+Employee : Gore Lal
+Birthdate : 19-05-21
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 15
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 16
+Employee : Tegjeet Singh
+Birthdate : 19-06-19
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Mayank Kansal
+Birthdate : 88-01-05
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varuna Khurana
+Birthdate : 86-04-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Komal Mehrotra
+Birthdate : 90-04-29
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Pranav Awasthi
+Birthdate : 92-11-29
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+Action = Reminder2
+EmailChain : ;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com
+
+
+ ************ Reminder 2 Action Started ********
+
+
+ ************Email Subject********
+Reminder :: Birthday E-Card || Send your wishes for Yashika Gupta
+Email Body :<html><body><p>Hello all,</p><p>Let us send some good wishes via E-card to Yashika Gupta on her birthday.</p><p><a href="mailto:asha.chauhan@accenture.com?subject=RE : Birthday E-Card || Send your wishes for Yashika Gupta&body=Dear Yashika Gupta, ">Click here</a> to send your wishes on this email so that we can collate it for birthday E-card.</p><p>Please send it as early as possible. :)</p><p><center><img src="cid:2daysago.jpg" height="300" width="350"/></center></p><p>This is a small initiative taken by us to bring smile on the faces of birthday boy/girl :)</p><p>Requesting you to please send the birthday wishes proactively on this email without reminders.</p><p>Thankyou !!</p><p><p>NOTE : This is an auto generated email via 'Wishing Tool'. Any replies other than specified will not be considered.&nbsp;</p><p> For any feedback/queries,<a href="mailto:yashika.a.gupta@accenture.com?subject=Wishing Tool Related Query/Feedback"> click here</a></p></body></html>
+
+ ************Email Sent successfully********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Dhruv Chugh
+Birthdate : 92-09-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 11
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 12
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 13
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 14
+Employee : Gore Lal
+Birthdate : 19-05-21
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 15
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 16
+Employee : Tegjeet Singh
+Birthdate : 19-06-19
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+Tool Data :: 7/4/201912:04:46 PM
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Mayank Kansal
+Birthdate : 88-01-05
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varuna Khurana
+Birthdate : 86-04-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Komal Mehrotra
+Birthdate : 90-04-29
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Pranav Awasthi
+Birthdate : 92-11-29
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+Action = Reminder2
+EmailChain : ;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com
+
+
+ ************ Reminder 2 Action Started ********
+
+
+ ************Email Subject********
+Reminder :: Birthday E-Card || Send your wishes for Yashika Gupta
+Email Body :<html><body><p>Hello all,</p><p>Let us send some good wishes via E-card to Yashika Gupta on her birthday.</p><p><a href="mailto:asha.chauhan@accenture.com?subject=RE : Birthday E-Card || Send your wishes for Yashika Gupta&body=Dear Yashika Gupta, ">Click here</a> to send your wishes on this email so that we can collate it for birthday E-card.</p><p>Please send it as early as possible. :)</p><p><center><img src="cid:2daysago.jpg" height="300" width="350"/></center></p><p>This is a small initiative taken by us to bring smile on the faces of birthday boy/girl :)</p><p>Requesting you to please send the birthday wishes proactively on this email without reminders.</p><p>Thankyou !!</p><p><p>NOTE : This is an auto generated email via 'Wishing Tool'. Any replies other than specified will not be considered.&nbsp;</p><p> For any feedback/queries,<a href="mailto:yashika.a.gupta@accenture.com?subject=Wishing Tool Related Query/Feedback"> click here</a></p></body></html>
+
+ ************Email Sent successfully********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Dhruv Chugh
+Birthdate : 92-09-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 11
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 12
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 13
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 14
+Employee : Gore Lal
+Birthdate : 19-05-21
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 15
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 16
+Employee : Tegjeet Singh
+Birthdate : 19-06-19
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************

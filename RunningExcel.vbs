@@ -13,9 +13,8 @@ If Err.Number = 429 Then
 End If
 If Not ObjExcel Is Nothing Then
    ObjExcel.Visible = True
-MsgBox "Hello"
-Set ObjWB =ObjExcel.Workbooks.Open("C:\Users\yashika.a.gupta\Desktop\HouseWorkScope.xlsx")
-MsgBox "Hello1"
+    Set ObjWB =ObjExcel.Workbooks.Open("C:\Users\asha.chauhan\Desktop\WishingTool\Sheet\Birthday.xlsm")
+   ObjExcel.Run("Workbook_Open")
 Else
    Msgbox "Unable to retrieve Excel."
 End If
@@ -23,23 +22,3 @@ End If
 ObjWB.Close False 
 ObjExcel.Quit
 Set ObjExcel = Nothing
-
-Function PrintLog(argument)
-
-Dim objFSO
-dim objFile
-dim thisLine
-Dim FilePath
-Dim log
-FilePath = "C:\Users\yashika.a.gupta\Desktop\Birthday\Birthday\BirthdayTool" & ".txt"
-Set objFSO = CreateObject("Scripting.FileSystemObject")
-
-If (objFSO.FileExists(FilePath)) Then
-  Set log = objFSO.OpenTextFile(FilePath, ForWriting , True) 
-  MsgBox "hell6"
-Else
-  Set log = objFSO.CreateTextFile(FilePath, TRUE)
-End If
-log.writeLine argument
-
-End Function
