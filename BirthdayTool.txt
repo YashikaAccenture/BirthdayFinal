@@ -23013,3 +23013,319 @@ Birthdate : 19-06-19
  ************NEXT ITERATION STARTED********
 
 *************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Mayank Kansal
+Birthdate : 88-01-05
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varuna Khurana
+Birthdate : 86-04-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Komal Mehrotra
+Birthdate : 90-04-29
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Pranav Awasthi
+Birthdate : 92-11-29
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Yashika Gupta
+Birthdate : 90-07-04
+
+************Required Action********
+
+
+************Action required : BirthdayEmail********
+
+
+************Outlook fetching function called********
+
+
+INSIDE OUTLOOK FUNCTION
+
+BIRTHDAYS folder found
+
+Adding new column
+
+Add new column : 4
+
+New column added 1
+
+Adding new column
+
+Add new column : 5
+
+New column added 25
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+ColumnNumber : 4
+************Outlook function executed sucessfully*******
+
+
+ColumnNumber2 : 5
+
+Default Wish for Row : 2
+
+Default Wish for Row : 3
+
+Default Wish for Row : 4
+
+Default Wish for Row : 5
+
+Default Wish for Row : 6
+
+Default Wish for Row : 7
+
+Default Wish for Row : 8
+
+Default Wish for Row : 9
+
+Default Wish for Row : 10
+
+Default Wish for Row : 11
+
+Default Wish for Row : 12
+
+Default Wish for Row : 13
+
+Default Wish for Row : 14
+
+Default Wish for Row : 15
+
+Default Wish for Row : 16
+
+Action = BirthdayEmail
+EmailChain : ;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com
+
+
+ ************BirthdayEmail action started********
+
+
+ ************Email Subject********
+Happy Birthday Yashika Gupta
+
+ ************FinalEmailBody2 called********
+
+
+First HTML creation function calling
+
+HTML First Page recording start
+
+HTML file name : C:\Users\yashika.a.gupta\Desktop\WishingTool\Birthday\BirthdayPage02019070409340373.html
+
+Next page creation function called
+
+Personalized HTML page
+
+Personalizd HTML page nameC:\Users\yashika.a.gupta\Desktop\WishingTool\Birthday\BirthdayPage2019070409340373.html
+
+Wishes started adding
+
+Wish from Row: 2
+
+Adding wish from Row : 2from list
+\Wish added for :2
+
+Wish added successfully for :2
+
+Wish from Row: 3
+
+Adding wish from Row : 3from list
+\Wish added for :3
+
+Wish added successfully for :3
+
+Wish from Row: 4
+
+Adding wish from Row : 4from list
+\Wish added for :4
+
+Wish added successfully for :4
+
+New Row added for wish :4
+
+Wish from Row: 5
+
+Adding wish from Row : 5from list
+\Wish added for :5
+
+Wish added successfully for :5
+
+Wish from Row: 6
+
+Adding wish from Row : 6from list
+\Wish added for :6
+
+Wish added successfully for :6
+
+Wish from Row: 7
+
+Adding wish from Row : 7from list
+\Wish added for :7
+
+Wish added successfully for :7
+
+New Row added for wish :7
+
+Wish from Row: 8
+
+Adding wish from Row : 8from list
+\Wish added for :8
+
+Wish added successfully for :8
+
+Wish from Row: 9
+
+Wish from Row: 10
+
+Adding wish from Row : 10from list
+\Wish added for :10
+
+Wish added successfully for :10
+
+Wish from Row: 11
+
+Adding wish from Row : 11from list
+\Wish added for :11
+
+Wish added successfully for :11
+
+New Row added for wish :11
+
+Wish from Row: 12
+
+Adding wish from Row : 12from list
+\Wish added for :12
+
+Wish added successfully for :12
+
+Wish from Row: 13
+
+Adding wish from Row : 13from list
+\Wish added for :13
+
+Wish added successfully for :13
+
+Wish from Row: 14
+
+Adding wish from Row : 14from list
+\Wish added for :14
+
+Wish added successfully for :14
+
+New Row added for wish :14
+
+Wish from Row: 15
+
+Adding wish from Row : 15from list
+\Wish added for :15
+
+Wish added successfully for :15
+
+Wish from Row: 16
+
+Adding wish from Row : 16from list
+\Wish added for :16
+
+Wish added successfully for :16
+
+Last wish :16
+
+Body of final email built
+
+ ************FinalEmailBody2 executed successfully********
+
