@@ -26473,3 +26473,97 @@ Body of final email built
 
  ************FinalEmailBody2 executed successfully********
 
+
+ ************Email Sent successfully********
+
+
+ ************BirthdayEmail for Team action started********
+
+
+ ************Email Subject********
+Today is Yashika Gupta's Birthday
+
+ ************Email Sent successfully********
+
+
+Dropping additional columns
+
+ ************NEXT ITERATION STARTED********
+
+
+RowNumber = 10
+Employee : Dhruv Chugh
+Birthdate : 92-09-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 11
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 12
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 13
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 14
+Employee : Gore Lal
+Birthdate : 19-05-21
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 15
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 16
+Employee : Tegjeet Singh
+Birthdate : 19-06-19
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
