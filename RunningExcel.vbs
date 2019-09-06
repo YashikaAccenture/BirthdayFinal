@@ -10,10 +10,10 @@ Dim ObjShell
   Set ObjShell = Wscript.CreateObject("Wscript.Shell")
 
 
-objShell.Run "C:\Users\asha.chauhan\Desktop\WishingTool\Birthday\New.vbs"
+objShell.Run "C:\Users\yashika.a.gupta\Desktop\WishingTool\Birthday\New.vbs"
 If Not ObjExcel Is Nothing Then
    ObjExcel.Visible = True
-    Set ObjWB =ObjExcel.Workbooks.Open("C:\Users\asha.chauhan\Desktop\WishingTool\Sheet\Birthday.xlsm")
+    Set ObjWB =ObjExcel.Workbooks.Open("C:\Users\yashika.a.gupta\Desktop\WishingTool\Sheet\Birthday.xlsm")
    ObjExcel.Run("Workbook_Open")
 Else
    Msgbox "Unable to retrieve Excel."
