@@ -37652,3 +37652,489 @@ Birthdate : 19-09-16
  ************NEXT ITERATION STARTED********
 
 *************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-05-26
+
+************Required Action********
+
+
+Action = Reminder1
+EmailChain : ;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com
+
+
+************ Reminder 1 Action Started ********
+
+
+ ************Email Subject********
+Birthday E-Card || Send your wishes for Yashika Gupta
+Email Body :<html><body><p>Hello all,</p><p>Let us send some good wishes via E-card to Yashika Gupta on her birthday.</p><p><a href="mailto:asha.chauhan@accenture.com?subject=RE : Birthday E-Card || Send your wishes for Yashika Gupta&body=Dear Yashika Gupta, ">Click here</a> to send your wishes on this email so that we can collate it for birthday E-card.</p><p>Please send it as early as possible. :)</p><p><center><img src="cid:5daysbefore.jpg" height="300" width="350"/></center></p><p>This is a small initiative taken by us to bring smile on the faces of birthday boy/girl :)</p><p>Requesting you to please send the birthday wishes proactively on this email without reminders.</p><p>Thankyou !!</p><p><p>NOTE : This is an auto generated email via 'Wishing Tool'. Any replies other than specified will not be considered.&nbsp;</p><p> For any feedback/queries,<a href="mailto:yashika.a.gupta@accenture.com?subject=Wishing Tool Related Query/Feedback"> click here</a></p></body></html>
+
+ ************Email Sent successfully********
+
+
+ ************NEXT ITERATION STARTED********
+
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-05-23
+
+************Required Action********
+
+
+Action = Reminder2
+EmailChain : ;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com
+
+
+ ************ Reminder 2 Action Started ********
+
+
+ ************Email Subject********
+Reminder :: Birthday E-Card || Send your wishes for Yashika Gupta
+Email Body :<html><body><p>Hello all,</p><p>Let us send some good wishes via E-card to Yashika Gupta on her birthday.</p><p><a href="mailto:yashika.a.gupta@accenture.com?subject=RE : Birthday E-Card || Send your wishes for Yashika Gupta&body=Dear Yashika Gupta, ">Click here</a> to send your wishes on this email so that we can collate it for birthday E-card.</p><p>Please send it as early as possible. :)</p><p><center><img src="cid:2daysago.jpg" height="300" width="350"/></center></p><p>This is a small initiative taken by us to bring smile on the faces of birthday boy/girl :)</p><p>Requesting you to please send the birthday wishes proactively on this email without reminders.</p><p>Thankyou !!</p><p><p>NOTE : This is an auto generated email via 'Wishing Tool'. Any replies other than specified will not be considered.&nbsp;</p><p> For any feedback/queries,<a href="mailto:yashika.a.gupta@accenture.com?subject=Wishing Tool Related Query/Feedback"> click here</a></p></body></html>
+
+ ************Email Sent successfully********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-05-21
+
+************Required Action********
+
+
+************Action required : BirthdayEmail********
+
+
+************Outlook fetching function called********
+
+
+INSIDE OUTLOOK FUNCTION
+
+BIRTHDAYS folder found
+
+Adding new column
+
+Add new column : 4
+
+New column added 1
+
+Adding new column
+
+Add new column : 5
+
+New column added 25
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Message from NonSMTP : yashika.a.gupta@accenture.com
+
+COMPARISON STARTED FROM Email in excel
+
+Match found at : yashika.a.gupta@accenture.com
+
+Looking for attachments
+
+Written N against Row : 2, Column : 5
+
+Written against Row : 2, Column : 4,Body : Dear Yashika Gupta, 
+
+
+Searching next mail
+
+ColumnNumber : 4
+************Outlook function executed sucessfully*******
+
+
+ColumnNumber2 : 5
+
+Default Wish for Row : 3
+
+Default Wish for Row : 4
+
+Default Wish for Row : 5
+
+Default Wish for Row : 6
+
+Default Wish for Row : 7
+
+Default Wish for Row : 8
+
+Default Wish for Row : 9
+
+Default Wish for Row : 10
+
+Action = BirthdayEmail
+EmailChain : yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com;yashika.a.gupta@accenture.com
+
+
+ ************BirthdayEmail action started********
+
+
+ ************Email Subject********
+Happy Birthday Yashika Gupta
+
+ ************FinalEmailBody2 called********
+
+
+First HTML creation function calling
+
+HTML First Page recording start
+
+HTML file name : C:\Users\yashika.a.gupta\Desktop\WishingTool\Birthday\BirthdayPage020200521190927527.html
+
+Next page creation function called
+
+Personalized HTML page
+
+Personalizd HTML page nameC:\Users\yashika.a.gupta\Desktop\WishingTool\Birthday\BirthdayPage20200521190927527.html
+
+Wishes started adding
+
+Wish from Row: 2
+
+Adding wish from Row : 2from list
+\Wish added for :2
+
+Wish added successfully for :2
+
+Wish from Row: 3
+
+Adding wish from Row : 3from list
+\Wish added for :3
+
+Wish added successfully for :3
+
+Wish from Row: 4
+
+Adding wish from Row : 4from list
+\Wish added for :4
+
+Wish added successfully for :4
+
+New Row added for wish :4
+
+Wish from Row: 5
+
+Wish from Row: 6
+
+Adding wish from Row : 6from list
+\Wish added for :6
+
+Wish added successfully for :6
+
+Wish from Row: 7
+
+Adding wish from Row : 7from list
+\Wish added for :7
+
+Wish added successfully for :7
+
+Wish from Row: 8
+
+Adding wish from Row : 8from list
+\Wish added for :8
+
+Wish added successfully for :8
+
+New Row added for wish :8
+
+Wish from Row: 9
+
+Adding wish from Row : 9from list
+\Wish added for :9
+
+Wish added successfully for :9
+
+Wish from Row: 10
+
+Adding wish from Row : 10from list
+\Wish added for :10
+
+Wish added successfully for :10
+
+Last wish :10
+
+Body of final email built
+
+ ************FinalEmailBody2 executed successfully********
+
