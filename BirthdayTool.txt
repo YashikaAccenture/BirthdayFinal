@@ -38138,3 +38138,2513 @@ Body of final email built
 
  ************FinalEmailBody2 executed successfully********
 
+
+ ************Email Sent successfully********
+
+
+ ************BirthdayEmail for Team action started********
+
+
+ ************Email Subject********
+Today is Yashika Gupta's Birthday
+
+ ************Email Sent successfully********
+
+
+Dropping additional columns
+
+ ************NEXT ITERATION STARTED********
+
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Bhavuk Singhal
+Birthdate : 19-04-13
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Asha Chauhan
+Birthdate : 87-09-12
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 4
+Employee : Yogesh Sharma
+Birthdate : 85-02-15
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Yashika Gupta
+Birthdate : 90-07-06
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Varshita Singh
+Birthdate : 93-12-27
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Somita Singh
+Birthdate : 93-09-02
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Subigya Rai
+Birthdate : 19-03-30
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Parul Gaur
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 10
+Employee : Ajay Singh
+Birthdate : 19-09-10
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Harry 
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Smaran
+Birthdate : 87-06-20
+
+************Required Action********
+
+
+Action = Reminder1
+EmailChain : ;harry.tarsem.lal@accenture.com;yashika.a.gupta@accenture.com;aastha.gulati@accenture.com;priyanka.a.rathore@accenture.com;vipul.a.verma@accenture.com;simranjit.a.singh@accenture.com
+
+
+************ Reminder 1 Action Started ********
+
+
+ ************Email Subject********
+Birthday E-Card || Send your wishes for Smaran
+Email Body :<html><body><p>Hello all,</p><p>Let us send some good wishes via E-card to Smaran on her birthday.</p><p><a href="mailto:yashika.a.gupta@accenture.com?subject=RE : Birthday E-Card || Send your wishes for Smaran&body=Dear Smaran, ">Click here</a> to send your wishes on this email so that we can collate it for birthday E-card.</p><p>Please send it as early as possible. :)</p><p><center><img src="cid:5daysbefore.jpg" height="300" width="350"/></center></p><p>This is a small initiative taken by us to bring smile on the faces of birthday boy/girl :)</p><p>Requesting you to please send the birthday wishes proactively on this email without reminders.</p><p>Thankyou !!</p><p><p>NOTE : This is an auto generated email via 'Wishing Tool'. Any replies other than specified will not be considered.&nbsp;</p><p> For any feedback/queries,<a href="mailto:yashika.a.gupta@accenture.com?subject=Wishing Tool Related Query/Feedback"> click here</a></p></body></html>
+
+ ************Email Sent successfully********
+
+
+ ************NEXT ITERATION STARTED********
+
+
+RowNumber = 4
+Employee : Yashika
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Aastha
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Priyanka
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Vipul
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Simran
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 2
+Employee : Harry 
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 3
+Employee : Smaran
+Birthdate : 87-06-15
+
+************Required Action********
+
+
+************Action required : BirthdayEmail********
+
+
+************Outlook fetching function called********
+
+
+INSIDE OUTLOOK FUNCTION
+
+BIRTHDAYS folder found
+
+Adding new column
+
+Add new column : 4
+
+New column added 1
+
+Adding new column
+
+Add new column : 5
+
+New column added 25
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Searching next mail
+
+Message from NonSMTP : vipul.a.verma@accenture.com
+
+COMPARISON STARTED FROM Email in excel
+
+Match found at : vipul.a.verma@accenture.com
+
+Looking for attachments
+
+Written N against Row : 7, Column : 5
+
+Written against Row : 7, Column : 4,Body : Dear Smaran, 
+
+
+Happy wala Birthday Bhai...
+hope we all meet soon aur gand machaayeeee.....??
+
+
+Thanks & Regards
+
+VIPUL VERMA
+
+
+
+
+
+Searching next mail
+
+Message from NonSMTP : priyanka.a.rathore@accenture.com
+
+COMPARISON STARTED FROM Email in excel
+
+Match found at : priyanka.a.rathore@accenture.com
+
+Looking for attachments
+
+Written N against Row : 6, Column : 5
+
+Written against Row : 6, Column : 4,Body : Dear Smaran,
+
+ 
+
+On your birthday we wish for you that whatever you want most in life it comes to you just the way you imagined it or better. Happy birthday!
+
+
+
+Thanks,
+Priyanka Rathore
+
+Searching next mail
+
+Message from NonSMTP : simranjit.a.singh@accenture.com
+
+COMPARISON STARTED FROM Email in excel
+
+Match found at : simranjit.a.singh@accenture.com
+
+Looking for attachments
+
+Written N against Row : 8, Column : 5
+
+Written against Row : 8, Column : 4,Body : Dear Smaran,
+
+Wish you a very happy quarantine birthday.
+Hope you have a wonderful day ahead with your family. 
+
+
+Regards
+Simranjit Singh 
+
+
+Searching next mail
+
+Message from NonSMTP : yashika.a.gupta@accenture.com
+
+COMPARISON STARTED FROM Email in excel
+
+Match found at : yashika.a.gupta@accenture.com
+
+Looking for attachments
+
+Written N against Row : 4, Column : 5
+
+Written against Row : 4, Column : 4,Body : Smaran broo !!!!
+
+Happy Birthday !!! ?? Many -many happy returns of the day !!! Tum jio hazaro saal(Hazaar vaise zyada ho gaya) ye hmari hai aarzoo !!Tunuuuuuuu !
+
+Bro , party due h …. !!! Jaise hi lockdown khule !! ?? 
+
+ 
+
+ 
+
+
+Searching next mail
+
+Message from : jainritika2020@gmail.com
+
+COMPARISON STARTED FROM Email in excel
+
+Match found at : jainritika2020@gmail.com
+
+Looking for attachments
+
+Written N against Row : 9, Column : 5
+
+Written against Row : 9, Column : 4,Body : This message is from an EXTERNAL SENDER - be CAUTIOUS, particularly with links and attachments.
+________________________________
+
+
+Dear Smaran, 
+
+Happy birthday to the coolest guy i know!
+
+Hope your day is as excited and goes with fun, charm as you are and may this day gives you everything that you love the most!
+
+Searching next mail
+
+Message from NonSMTP : harry.tarsem.lal@accenture.com
+
+COMPARISON STARTED FROM Email in excel
+
+Match found at : harry.tarsem.lal@accenture.com
+
+Looking for attachments
+
+Written N against Row : 2, Column : 5
+
+Written against Row : 2, Column : 4,Body : Dear Smaran, 
+
+I know the time we spent together is titchy but the effect of your crazy dance is everlasting. The cherished memories with you are priceless.  You’re an amazing guy and may your all your dreams comes true. Happy  Birthday brother.
+
+ 
+
+ 
+
+
+Searching next mail
+
+Message from NonSMTP : aastha.gulati@accenture.com
+
+COMPARISON STARTED FROM Email in excel
+
+Match found at : aastha.gulati@accenture.com
+
+Looking for attachments
+
+Written N against Row : 5, Column : 5
+
+Written against Row : 5, Column : 4,Body : Dear Smaran, 
+
+ 
+
+Happy Happy Happy Birthday Smaran!
+
+I really like for your insanely cute smile . You are the most generous and most decent guy I know.
+
+Your smile is infectious. Keep Smiling Always!
+
+ 
+
+
+Searching next mail
+
+ColumnNumber : 4
+************Outlook function executed sucessfully*******
+
+
+ColumnNumber2 : 5
+
+Default Wish for Row : 3
+
+Action = BirthdayEmail
+EmailChain : aastha.gulati@accenture.com;harry.tarsem.lal@accenture.com;yashika.a.gupta@accenture.com;aastha.gulati@accenture.com;priyanka.a.rathore@accenture.com;vipul.a.verma@accenture.com;simranjit.a.singh@accenture.com;jainritika2020@gmail.com
+
+
+ ************BirthdayEmail action started********
+
+
+ ************Email Subject********
+Happy Birthday Smaran
+
+ ************FinalEmailBody2 called********
+
+
+First HTML creation function calling
+
+HTML First Page recording start
+
+HTML file name : C:\Users\yashika.a.gupta\Desktop\WishingTool\Birthday\BirthdayPage020200615183037637.html
+
+Next page creation function called
+
+Personalized HTML page
+
+Personalizd HTML page nameC:\Users\yashika.a.gupta\Desktop\WishingTool\Birthday\BirthdayPage20200615183037637.html
+
+Wishes started adding
+
+Wish from Row: 2
+
+Adding wish from Row : 2from list
+\Wish added for :2
+
+Wish added successfully for :2
+
+Wish from Row: 3
+
+Wish from Row: 4
+
+Adding wish from Row : 4from list
+\Wish added for :4
+
+Wish added successfully for :4
+
+Wish from Row: 5
+
+Adding wish from Row : 5from list
+\Wish added for :5
+
+Wish added successfully for :5
+
+New Row added for wish :5
+
+Wish from Row: 6
+
+Adding wish from Row : 6from list
+\Wish added for :6
+
+Wish added successfully for :6
+
+Wish from Row: 7
+
+Adding wish from Row : 7from list
+\Wish added for :7
+
+Wish added successfully for :7
+
+Wish from Row: 8
+
+Adding wish from Row : 8from list
+\Wish added for :8
+
+Wish added successfully for :8
+
+New Row added for wish :8
+
+Wish from Row: 9
+
+Adding wish from Row : 9from list
+\Wish added for :9
+
+Wish added successfully for :9
+
+Last wish :9
+
+Body of final email built
+
+ ************FinalEmailBody2 executed successfully********
+
