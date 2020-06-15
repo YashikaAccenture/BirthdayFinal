@@ -40648,3 +40648,86 @@ Body of final email built
 
  ************FinalEmailBody2 executed successfully********
 
+
+ ************Email Sent successfully********
+
+
+ ************BirthdayEmail for Team action started********
+
+
+ ************Email Subject********
+Today is Smaran's Birthday
+
+ ************Email Sent successfully********
+
+
+Dropping additional columns
+
+ ************NEXT ITERATION STARTED********
+
+
+RowNumber = 4
+Employee : Yashika
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 5
+Employee : Aastha
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 6
+Employee : Priyanka
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 7
+Employee : Vipul
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 8
+Employee : Simran
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
+
+RowNumber = 9
+Employee : Ritika
+Birthdate : 90-09-09
+
+************Required Action********
+
+
+ ************NEXT ITERATION STARTED********
+
+*************************NO ACTION REQUIRED*************
